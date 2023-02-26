@@ -1,14 +1,3 @@
-@font-face {
-    font-family: Ubuntu;
-    src: url('fonts/Ubuntu-MI.ttf') format('truetype');
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: NanumGothic;
-    src: url('fonts/NanumGothic-Regular.ttf') format('truetype');
-}
-
 $bg-color: #F7EDE2;
 $business: #264653;
 $personal: #e76f51;
@@ -31,7 +20,7 @@ $edit: #00526d;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: NanumGothic;
+    font-family: 'Nanum Gothic';
 }
 
 input:not([type="radio"]):not([type="checkbox"]), button{
